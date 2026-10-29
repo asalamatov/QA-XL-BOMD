@@ -1,0 +1,15 @@
+# environments and third-party code (installed by setup.sh)
+.venv/
+PYSEQM/
+
+# downloaded datasets (download_data.sh)
+data/*
+!data/.gitkeep
+
+# scratch output
+results/md/check/
+*.part
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

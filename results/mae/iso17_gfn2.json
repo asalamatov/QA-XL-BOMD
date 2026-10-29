@@ -1,0 +1,33 @@
+{
+ "method": "GFN2-xTB",
+ "seed": 0,
+ "n": 1000,
+ "n_calib": 200,
+ "offset_note": "constant energy offset fitted on a disjoint calibration sample",
+ "rows": [
+  {
+   "name": "ISO17 known mol / unk conf",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -247629.60446027163,
+   "energy_mae_kcal": 5.517771977360768,
+   "energy_rmse_kcal": 7.6748299620180065,
+   "force_mae_kcal_A": 6.171467166341612,
+   "force_rmse_kcal_A": 8.412012135262954,
+   "seconds": 135.94819593429565
+  },
+  {
+   "name": "ISO17 unknown mol / unk conf",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -247629.60446027163,
+   "energy_mae_kcal": 7.168636106272752,
+   "energy_rmse_kcal": 10.426190149754675,
+   "force_mae_kcal_A": 5.954210669623899,
+   "force_rmse_kcal_A": 8.1382929804026,
+   "seconds": 24.71927762031555
+  }
+ ]
+}

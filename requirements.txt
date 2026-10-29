@@ -1,0 +1,13 @@
+# Install PyTorch first (setup.sh does this), then:
+numpy>=1.24
+scipy>=1.10
+h5py>=3.8
+psutil>=5
+ase>=3.22
+matplotlib>=3.7
+# tblite (GFN2-xTB, xtb stage) is installed by setup.sh separately, so a failed install does not block the rest
+notebook>=7
+ipykernel>=6
+# PySEQM is installed from GitHub at a fixed commit by setup.sh.
+# requirements-lock.txt is the full environment used for the paper's runs
+# (Linux, CUDA 12.4), for reference.

@@ -1,0 +1,33 @@
+{
+ "method": "AM1",
+ "seed": 0,
+ "n": 1000,
+ "n_calib": 200,
+ "offset_note": "constant energy offset fitted on a disjoint calibration sample",
+ "rows": [
+  {
+   "name": "ISO17 known mol / unk conf",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -226760.99457652937,
+   "energy_mae_kcal": 13.459481363015483,
+   "energy_rmse_kcal": 16.298235408400327,
+   "force_mae_kcal_A": 10.77151671439326,
+   "force_rmse_kcal_A": 15.969988842859323,
+   "seconds": 4.2022385597229
+  },
+  {
+   "name": "ISO17 unknown mol / unk conf",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -226760.99457652937,
+   "energy_mae_kcal": 15.151682192533393,
+   "energy_rmse_kcal": 18.45839680627573,
+   "force_mae_kcal_A": 10.211251175604014,
+   "force_rmse_kcal_A": 14.6647022285817,
+   "seconds": 2.684241771697998
+  }
+ ]
+}

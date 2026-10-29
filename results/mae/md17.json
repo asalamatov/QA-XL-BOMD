@@ -1,0 +1,93 @@
+{
+ "method": "AM1",
+ "seed": 0,
+ "n": 1000,
+ "n_calib": 200,
+ "offset_note": "constant energy offset fitted on a disjoint calibration sample",
+ "rows": [
+  {
+   "name": "MD17 aspirin",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -348108.16638303676,
+   "energy_mae_kcal": 2.9838831266566994,
+   "energy_rmse_kcal": 3.8058443488901372,
+   "force_mae_kcal_A": 12.641787039228962,
+   "force_rmse_kcal_A": 18.90390483163292,
+   "seconds": 4.54205322265625
+  },
+  {
+   "name": "MD17 ethanol",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -81995.56739674868,
+   "energy_mae_kcal": 1.9195140344834944,
+   "energy_rmse_kcal": 2.4932719750854537,
+   "force_mae_kcal_A": 8.968112345119065,
+   "force_rmse_kcal_A": 11.742178453193599,
+   "seconds": 1.6668167114257812
+  },
+  {
+   "name": "MD17 malonaldehyde",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -142619.90929779308,
+   "energy_mae_kcal": 2.219984195980476,
+   "energy_rmse_kcal": 2.791193737599122,
+   "force_mae_kcal_A": 13.94030914027442,
+   "force_rmse_kcal_A": 20.397964835740517,
+   "seconds": 2.058452606201172
+  },
+  {
+   "name": "MD17 naphthalene",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -209882.62617259793,
+   "energy_mae_kcal": 1.5528423602081893,
+   "energy_rmse_kcal": 1.9510694811032234,
+   "force_mae_kcal_A": 6.966706631018506,
+   "force_rmse_kcal_A": 10.361700542504845,
+   "seconds": 3.0469541549682617
+  },
+  {
+   "name": "MD17 salicylic",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -266317.3331418971,
+   "energy_mae_kcal": 4.697916166342562,
+   "energy_rmse_kcal": 5.99636940390821,
+   "force_mae_kcal_A": 10.774101006358258,
+   "force_rmse_kcal_A": 16.16919657110337,
+   "seconds": 2.910102367401123
+  },
+  {
+   "name": "MD17 C6H5CH3",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -147046.69547287788,
+   "energy_mae_kcal": 1.8533344018323115,
+   "energy_rmse_kcal": 2.361045718441666,
+   "force_mae_kcal_A": 6.9723456884725845,
+   "force_rmse_kcal_A": 10.233522591350008,
+   "seconds": 2.5115866661071777
+  },
+  {
+   "name": "MD17 uracil",
+   "n_test": 1000,
+   "n_converged": 1000,
+   "n_calib": 200,
+   "energy_offset_kcal": -222732.4351188653,
+   "energy_mae_kcal": 3.0893276698441476,
+   "energy_rmse_kcal": 3.857996372810618,
+   "force_mae_kcal_A": 16.822698004591118,
+   "force_rmse_kcal_A": 26.16304892004805,
+   "seconds": 2.5491244792938232
+  }
+ ]
+}
